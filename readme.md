@@ -12,7 +12,8 @@
 
 3. [lw3](https://docs.google.com/document/d/1XCe3int9Muk2Rxb2fhYZgqK-8ZDYKEGPjFsn6ddo7Ks/edit)
 
-4. ...
+4. [lw4](https://drive.google.com/file/d/19UfT9j8KP-2bKmUtsL9lf_BzeJYDWsoq/view)
+5. ...
 
 Полезные ссылки:
 
@@ -20,5 +21,8 @@
 
 * [Pascal Coding Conventions](https://docs.google.com/document/d/1wPGWnRfzsWYKfMe_Iqt7gShDUufDpHL2ALOMBu2lXfM/edit)
 
+* [Соглашения по именованию файлов и директорий](https://docs.google.com/document/d/1f_wphsAV-1R3iDZ-RQMLNlIzPY4AFmHnlzFIsfaMeXE/edit)
+* [Соглашение по кодированию на HTML](https://drive.google.com/file/d/0BwVxw_xrDzIKdWtUNS1LWDlINTQ/view)
+* [Валидатор  HTML](https://validator.w3.org/)
 * ...
 
