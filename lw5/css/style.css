@@ -159,12 +159,8 @@
     border-bottom: 1px solid #15a98b;
 }
 
-.link:hover
+.link__text:hover
 {
     color: #098d72;
-}
-
-.link__text_underline:hover
-{
     border-color: #098d72;
 }
