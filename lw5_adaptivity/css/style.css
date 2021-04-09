@@ -177,7 +177,7 @@
     margin-bottom: 5%;
 }
 
-.title-h2
+.title-medium
 {
     color: #333;
     font: 400 34px/1.16 'Open Sans', sans-serif;
@@ -593,7 +593,7 @@
         margin: 0 auto 16px 0;
     }
     
-    .title-h2
+    .title-medium
     {
         font-size: 36px;
     }
