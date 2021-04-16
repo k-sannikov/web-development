@@ -149,33 +149,33 @@
         <form class="form" method="post" action="index.php#write-me">
           <? if(isset($args['save_status'])): ?>
             <div class="form__info-box">
-              <? echo $args['save_status']; ?>
+              <?= $args['save_status']; ?>
             </div>
           <? endif; ?>
           <label class="form__label form__label_required">Ваше имя</label>
-          <input class="form__input" type="text" name="name" value="<? echo $args['name'] ?? ''; ?>" />
+          <input class="form__input" type="text" name="name" value="<?= $args['name'] ?? ''; ?>" />
           <? if(isset($args['name_error_msg'])): ?>
-            <p class="form__text_error"><? echo $args['name_error_msg']; ?></p>
+            <p class="form__text_error"><?= $args['name_error_msg']; ?></p>
           <? endif; ?>
 
           <label class="form__label form__label_required">Ваш email</label>
-          <input class="form__input" type="email" name="email" value="<? echo $args['email'] ?? ''; ?>" />
+          <input class="form__input" type="email" name="email" value="<?= $args['email'] ?? ''; ?>" />
           <? if(isset($args['email_error_msg'])): ?>
-            <p class="form__text_error"><? echo $args['email_error_msg']; ?></p>
+            <p class="form__text_error"><?= $args['email_error_msg']; ?></p>
           <? endif; ?>
 
           <label class="form__label">Откуда вы?</label>
           <select class="form__select" name="country">
             <option class="form__select-option" value="Россия" 
-            <? echo isset($args['country']) && $args['country'] === 'Россия' ? 'selected' : ''; ?>>
+            <?= isset($args['country']) && $args['country'] === 'Россия' ? 'selected' : ''; ?>>
               Россия
             </option>
             <option class="form__select-option" value="Украина"
-            <? echo isset($args['country']) && $args['country'] === 'Украина' ? 'selected' : ''; ?>>
+            <?= isset($args['country']) && $args['country'] === 'Украина' ? 'selected' : ''; ?>>
               Украина
             </option>
             <option class="form__select-option" value="Беларусь"
-            <? echo isset($args['country']) && $args['country'] === 'Беларусь' ? 'selected' : ''; ?>>
+            <?= isset($args['country']) && $args['country'] === 'Беларусь' ? 'selected' : ''; ?>>
               Беларусь
             </option>
           </select>
@@ -185,14 +185,14 @@
             <input type="radio" name="gender" id="male" value="male" checked />
             <label class="form__radio-box_label" for="male">Мужской</label>
             <input type="radio" name="gender" id="female" value="female"
-              <? echo isset($args['gender']) && $args['gender'] === 'female' ? 'checked' : ''; ?> />
+              <?= isset($args['gender']) && $args['gender'] === 'female' ? 'checked' : ''; ?> />
             <label class="form__radio-box_label" for="female">Женский</label>
           </div>
 
           <label class="form__label form__label_required">Ваше сообщение</label>
-          <textarea class="form__textarea" name="message"><? echo $args['message'] ?? ''; ?></textarea>
+          <textarea class="form__textarea" name="message"><?= $args['message'] ?? ''; ?></textarea>
           <? if(isset($args['message_error_msg'])): ?>
-            <p class="form__text_error"><? echo $args['message_error_msg']; ?></p>
+            <p class="form__text_error"><?= $args['message_error_msg']; ?></p>
           <? endif; ?>
           <div class="form__button-box" >
             <button class="button" type="submit">Отправить</button>
