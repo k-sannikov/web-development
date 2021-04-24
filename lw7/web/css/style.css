@@ -754,13 +754,11 @@
     
     .form__input
     {
-        /* margin-bottom: 24px; */
         height: 46px;
     }
     
     .form__select
     {
-        /* margin: 0 0 45px 0; */
         height: 50px;
     }
     
