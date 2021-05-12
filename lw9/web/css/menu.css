@@ -1,0 +1,22 @@
+.navbar__header
+{
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  padding: 5% 0; 
+}
+
+.close
+{
+  display: none;
+  position: relative;
+}
+
+@media screen and (min-width: 768px)
+{
+  .close
+  {
+    display: block;
+    position: static;
+  }
+}
