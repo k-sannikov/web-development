@@ -16,7 +16,9 @@
 8. [lw8](https://drive.google.com/file/d/1vKQC8psiazA5lKjQVTSgpzBC950w4oNo/view)
 9. [lw9](https://vk.com/doc431263170_593963198?hash=a365ae2534b18b1955&dl=5cd1f2dbde1e547b24)
 10. [lw10](https://docs.google.com/document/d/1ukV6RTLv7PFRrEkFFpo6btk2e_WggCB2/edit)
-11. ...
+11. [lw11](https://docs.google.com/document/d/1g_4Wg91On5Pwk6YQdwMNxIwF9SByIqHG/edit)
+12. [lw12](https://docs.google.com/document/d/1IDJrVjPpeo_D1R6c7ArbS3btcZtkvlah/edit)
+13. [lw13](https://docs.google.com/document/d/1moK-Fx9CHJjX5dNy3Qm94HjW_dGUVuM2/edit)
 
 Полезные ссылки:
 * [Лекции](https://www.youtube.com/playlist?list=PLAyGZSpiecFoZjowpn7g-PxUqONswh3i1)
