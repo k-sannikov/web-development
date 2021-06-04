@@ -1,0 +1,72 @@
+<svg height="300" width="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- штаны -->
+  <rect x="111" y="265" width="104" height="22" fill="#22857f"/>
+
+  <!-- ноги -->
+  <path d="M 105 287 L 223 288 223 286 Q 140 280 105 285 Z" fill="#4c4a4f"/>
+
+  <!-- тело -->
+  <path d="M 110 198 Q 90 220 88 250 L 105 250 105 267 Q 160 278 215 267 L 235 250 Q 235 230 210 190" fill="#ff6419"/>
+  <line x1="113" y1="230" x2="108" y2="255" stroke="#60403f" stroke-linecap="round"/>
+  <line x1="211" y1="233" x2="215" y2="256" stroke="#60403f" stroke-linecap="round"/>
+
+  <!-- левый карман -->
+  <rect x="130" y="229" width="20" height="25" stroke="#653122" fill-opacity="0"/>
+  <path d="M 130 229 L 140 240 150 229" stroke="#653122" fill-opacity="0"/>
+  <!-- правый карман -->
+  <rect x="178" y="229" width="20" height="23" stroke="#653122" fill-opacity="0"/>
+  <path d="M 178 229 L 188 240 198 229" stroke="#653122" fill-opacity="0"/>
+
+  <!-- молния -->
+  <line x1="164" y1="218" x2="165" y2="272" stroke="#6e3520" stroke-linecap="round" stroke-width="2"/>
+
+  <!-- воротник -->
+  <path d="M 112 198 C 160 247 218 205 214 195 Z" fill="#00ad4f" stroke="#1b7b3e"/>
+  
+  <!-- голова -->
+  <circle cx="162" cy="138" r="78" fill="#ffecc1"/>
+
+  <!-- шапка -->
+  <rect x="87" y="52" width="153" height="60" rx="14" ry="14" fill="#4fc43e"/>
+  <rect x="87" y="73" width="153" height="40" fill="#4fc43e"/>
+  <ellipse cx="86" cy="143" rx="14" ry="38" fill="#4fc43e" transform="rotate(21, 89, 138)"/>
+  <ellipse cx="242" cy="147" rx="14" ry="38" fill="#4fc43e" transform="rotate(-21, 230, 145)"/>
+  <path d="M 98 80 L 230 80 230 122 Q  160 110 98 122 " fill="#00ad50"/>
+
+  <!-- левое веко -->
+  <ellipse cx="137" cy="142" rx="21" ry="25" fill="#f1d9b7" transform="rotate(30, 138, 150)"/>
+  <!-- левый глаз -->
+  <ellipse cx="137" cy="143" rx="21" ry="25" fill="#fff" transform="rotate(30, 138, 151)"/>
+  <!-- левый зрачек -->
+  <circle cx="150" cy="144" r="2"/>
+  
+  <circle cx="173" cy="138" r="10" fill="#c9c6c4"/>
+
+  <!-- правое веко -->
+  <ellipse cx="190" cy="145" rx="21" ry="25" fill="#f1d9b7" transform="rotate(-30, 181, 150) "/>
+  <!-- правый глаз -->
+  <ellipse cx="190" cy="146" rx="21" ry="25" fill="#fff" transform="rotate(-30, 181, 150) "/>
+  <!-- правый зрачек -->
+  <circle cx="174" cy="144" r="2"/>
+
+  <!-- рот -->
+  <path d="M 143 185 Q 170 184 190 185 Q 175 203 165 205 Q 158 200 145 190" fill="#302b2f"/>
+  
+  <!-- зубы -->
+  <polygon points="145 185.5 148.5 191.5 157 192 157 185" fill="#fff" stroke-width="0.2" stroke="#302b2f"/>
+  <polygon points="157.5 185 158 191 166 192 166 185 " fill="#fff" stroke-width="0.2" stroke="#302b2f"/>
+  <polygon points="167 185 167 192 176 192 177 185 " fill="#fff" stroke-width="0.2" stroke="#302b2f"/>
+  <polygon points="177.5 185 177 192 182 192 187 186 " fill="#fff" stroke-width="0.2" stroke="#302b2f"/>
+
+  <!-- брови -->
+  <line x1="120" y1="120" x2="140" y2="107" stroke-width="2" stroke="#3e3d43" stroke-linecap="round"/>
+  <line x1="205" y1="119" x2="184" y2="109" stroke-width="2" stroke="#3e3d43" stroke-linecap="round"/>
+
+  <!-- левая рука -->
+  <circle cx="98" cy="254" r="13" fill="#4dc33e"/>
+  <circle cx="108" cy="250" r="5" fill="#4dc33e" stroke="#4f9f43" stroke-width="0.3"/>
+
+  <!-- правая рука -->
+  <circle cx="225" cy="258" r="13" fill="#4dc33e"/>
+  <circle cx="215" cy="255" r="5" fill="#4dc33e" stroke="#4f9f43" stroke-width="0.3"/>
+</svg>

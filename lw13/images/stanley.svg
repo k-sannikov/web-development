@@ -1,0 +1,86 @@
+<svg height="300" width="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- штаны -->
+  <rect x="111" y="265" width="104" height="20" fill="#3a74c5"/>
+
+  <!-- ноги -->
+  <path d="M 100 287 L 225 288 225 286 Q 200 280 162 283 Q 140 275 100 285 Z" fill="#332e32"/>
+
+  <!-- тело -->
+  <path d="M 110 200 Q 90 225 91 250 L 105 250 105 267 Q 160 278 215 267 L 228 248 Q 230 230 210 200" fill="#d26f5f"/>
+  <line x1="113" y1="230" x2="108" y2="255" stroke="#60403f" stroke-linecap="round"/>
+  <line x1="205" y1="230" x2="210" y2="256" stroke="#60403f" stroke-linecap="round"/>
+
+  <!-- пуговицы -->
+  <line x1="162" y1="218" x2="160" y2="272" stroke="#7e4e49" stroke-linecap="round" stroke-width="1.5"/>
+  <circle cx="154" cy="231" r="2" fill="#7e4e49"/>
+  <circle cx="154" cy="246" r="2" fill="#7e4e49"/>
+  <circle cx="154" cy="263" r="2" fill="#7e4e49"/>
+
+  <!-- воротник -->
+  <path d="M 110 200 C 120 218 163 238 160 218 Z" fill="#ff2042"/>
+  <path d="M 210 195 C 215 218 156 240 163 218 Z" fill="#ff2042"/>  
+  
+  <!-- голова -->
+  <circle cx="158" cy="142" r="76" fill="#ffecc1"/>
+  
+  <!-- левое веко -->
+  <ellipse cx="138" cy="150" rx="20" ry="24" fill="#f1d9b7" transform="rotate(30, 138, 150)"/>
+  <!-- левый глаз -->
+  <ellipse cx="138" cy="151" rx="20" ry="24" fill="#fff" transform="rotate(30, 138, 151)"/>
+  <!-- левый зрачек -->
+  <circle cx="145" cy="152" r="2"/>
+
+  <circle cx="169" cy="145" r="10" fill="#c9c6c4"/>
+  
+  <!-- правое веко -->
+  <ellipse cx="181" cy="149" rx="20" ry="24" fill="#f1d9b7" transform="rotate(-30, 181, 150)"/>
+  <!-- правый глаз -->
+  <ellipse cx="181" cy="150" rx="20" ry="24" fill="#fff" transform="rotate(-30, 181, 150) "/>
+  <!-- правый зрачек -->
+  <circle cx="171" cy="151" r="2"/>
+
+  <!-- шапка -->
+  <path d="M 82 135 C 100 38 218 40 234 130 Q 140 100 82 135" fill="#3d75c6"/>
+  
+  <!-- подворот шапки -->
+  <path d="M 82 125 C 110 105 218 105 236 118 L 236 134 C 200 118 100 127 82 140 Z" fill="#ff2040"/>
+
+  <!-- рот -->
+  <path d="M 143 190 Q 170 188 183 190 Q 170 203 163 208 Q 150 200 143 190" fill="#302b2f"/>
+
+  <!-- зубы -->
+  <polygon points="145 190.5 148.5 196 154 196 154 190" fill="#fff" stroke-width="0.2" stroke="#302b2f"/>
+  <polygon points="154.5 190 154.5 196 160 196 163 195 163 189.5 " fill="#fff" stroke-width="0.2" stroke="#302b2f"/>
+  <polygon points="163.5 189.5 163.5 196 171 196 174 189.5 " fill="#fff" stroke-width="0.2" stroke="#302b2f"/>
+  <polygon points="173.5 189.5 171.2 196 177.5 195 179.5 193 181 190 " fill="#fff" stroke-width="0.2" stroke="#302b2f"/>
+
+  <!-- брови -->
+  <line x1="110" y1="134" x2="125" y2="118" stroke-width="2" stroke="#3e3d43" stroke-linecap="round"/>
+  <line x1="203" y1="129" x2="186" y2="117" stroke-width="2" stroke="#3e3d43" stroke-linecap="round"/>
+
+  <!-- помпон -->
+  <rect x="149" y="46" width="3" height="35" rx="1.5" ry="1.5" stroke-width="0.5"
+  stroke="#b12b3f" fill="#dc223d" transform="rotate(-3.5, 149, 63)"/>
+  <rect x="150" y="45" width="3" height="35" rx="1.5" ry="1.5" stroke-width="0.5"
+  stroke="#b12b3f" fill="#dc223d" transform="rotate(18, 149, 62)"/>
+  <rect x="150" y="45" width="3" height="35" rx="1.5" ry="1.5" stroke-width="0.5"
+  stroke="#b12b3f" fill="#dc223d" transform="rotate(43, 149, 62)"/>
+  <rect x="155" y="40" width="3" height="35" rx="1.5" ry="1.5" stroke-width="0.5"
+  stroke="#b12b3f" fill="#dc223d" transform="rotate(65, 149, 57)"/>
+  <rect x="148" y="46" width="3" height="35" rx="1.5" ry="1.5" stroke-width="0.5"
+  stroke="#b12b3f" fill="#dc223d" transform="rotate(-70, 150, 63)"/>
+  <rect x="148" y="46" width="3" height="35" rx="1.5" ry="1.5" stroke-width="0.5"
+  stroke="#b12b3f" fill="#dc223d" transform="rotate(-95, 150, 63)"/>
+  <rect x="148" y="46" width="3" height="35" rx="1.5" ry="1.5" stroke-width="0.5"
+  stroke="#b12b3f" fill="#dc223d" transform="rotate(-50, 150, 63)"/>
+  <rect x="148" y="46" width="3" height="35" rx="1.5" ry="1.5" stroke-width="0.5"
+  stroke="#b12b3f" fill="#dc223d" transform="rotate(-25, 150, 63)"/>
+
+  <!-- левая рука -->
+  <circle cx="100" cy="252" r="11.5" fill="#ff1f40"/>
+  <circle cx="108" cy="248" r="5" fill="#ff1f40" stroke="#c9233c" stroke-width="0.3"/>
+
+  <!-- правая рука -->
+  <circle cx="219" cy="255" r="11.5" fill="#ff1f40"/>
+  <circle cx="210" cy="253" r="5" fill="#ff1f40" stroke="#c9233c" stroke-width="0.3"/>
+</svg>
