@@ -34,5 +34,4 @@
 * [БЭМ](https://ru.bem.info/methodology/quick-start/)
 * [Color-Hex](https://www.color-hex.com/)
 * [Google Fonts](https://fonts.google.com/)
-* ...
 
